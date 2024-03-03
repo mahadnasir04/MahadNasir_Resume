@@ -1,0 +1,60 @@
+/* styles.css */
+
+.title {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    color: cyan;
+}
+
+.buffer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: cyan;
+    height: 600px;
+}
+
+.other-links {
+    display: inline-block;
+    background-color: darkturquoise;
+    width: 20%;
+    height: 500px;
+    float: left;
+    color: black;
+}
+
+.box1 {
+    display: inline-block;
+    background-color: skyblue;
+    width: 40%;
+    height: 500px;
+    float: left;
+    color: black;
+}
+
+.box2 {
+    display: inline-block;
+    background-color: skyblue;
+    width: 40%;
+    height: 500px;
+    float: right;
+    color: black;
+}
+
+.email-link {
+    text-align: center;
+    padding-top: 20px;
+    background-color: black;
+}
+
+.email-link a {
+    color: cyan;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 575px){
+    .other-links{width:90%; height:300px; margin:auto; float:none}
+    .box1{width:90%; margin:auto; float:none}
+    .box2{width:90%; margin:auto; float:none}
+}
